@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/auditor/re7/jack/jack_hair_shared"
+	"$bumpmap" "models/auditor/re7/jack/jack_hair_nml_shared"
+	"$color2" "[0.85 0.85 0.85]"
+	"$alphatest" "1"
+	"$alphatestreference" "0.12"
+	"$ambientocclusion" "0"
+	"$nocull" "1"
+	"$phong" "1"						
+	"$phongboost"	"0.1" 		
+	//"$phongexponent" "2"	
+	"$phongexponenttexture" "models/auditor/re7/jack/shared/green"  
+		
+	"$phongwarptexture"		"models/auditor/re7/jack/Shared/phongwarp_hair2"		
+	$lightwarptexture "models/auditor/re7/jack/Shared/lightwarp_soft"
+	
+	"$phongfresnelranges"	"[1 1.05 1.25]"			
+	"$phongtint" 			"[1 1 1.1]"			
+	//"$PhongAlbedoTint" "1"
+}

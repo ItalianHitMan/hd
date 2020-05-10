@@ -1,0 +1,52 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/auditor/re7/jack/glasses_frame"
+	"$bumpmap" "models/auditor/re7/jack/glasses_frame_nml"
+	"$color2" "[0.0 0.0 0.0]"
+	//"$blendTintByBaseAlpha"	"1"
+	//"$additive" "1"
+	//"$ambientocclusion" "0"
+	//"$alphatest" "1"
+	//"$selfillum" "1"
+	//"$selfillummaskscale" "15"
+	//"$selfillummask" ""
+	$no_draw 0
+	$nocull 1		
+	"$normalmapalphaenvmapmask" "1" 	
+	//"$basealphaenvmapmask"	"1"
+	"$envmap" "models/auditor/re7/jack/Shared/killy"					
+	"$envmaptint" "[0.05 0.05 0.05]"				
+
+
+	//ReflectionsDir
+
+	"$phong" "1"						
+	"$phongboost"	"75" 		
+	//"$phongexponent" "2"	
+	"$phongexponenttexture" "models/auditor/re7/jack/glasses_frame_r"  
+		
+	//"$phongwarptexture"		"models/auditor/re7/jack/Shared/phongwarp2"		
+	$lightwarptexture "models/auditor/re7/jack/Shared/lightwarp_soft"
+	
+	"$phongfresnelranges"	"[1 1.05 1.25]"			
+	//"$phongtint" 			"[1 1 1.1]"			
+	"$PhongAlbedoTint" "1"
+
+	//Situational
+
+	//"$rimlight" "1"
+	//"$rimmask" "1"
+	//"$rimlightboost" "0.2"	
+	//"$rimexponent" "0.3"
+
+	//FresnelReferences 
+ 
+	//"[0.22 0.856 20]" - NonMet
+	//"[1 1.05 1.25]" - Leath_Gen
+	//"[0.76 0.921 1.25]" - TheRest
+	//"[1 5 22.5]" - MtRef
+	//"[1 1.35 2.5]" -AlbGldMtl
+	//"[0.5 2.5 22.5] - mtldm
+	//"[0.8 2 22.5] - skn
+ 
+}
